@@ -1,0 +1,11 @@
+db:
+  username: user
+  password: password
+  host: 127.0.0.1
+  port: 3306
+  dbname: data
+  destination_table_name: CPI_DEC_2022_Q_json
+data:
+  directory: ../data/
+  filename: Consumers-price-index-December-2022-quarter-index-numbers
+  extension: json # only json, csv is acceptable for now
