@@ -28,7 +28,6 @@ class DB:
 
 def read_file(filepath, filename, extension):
     if extension.lower() == 'json':
-        print(filepath+filename+'.'+extension.lower())
         return pd.read_json(filepath+filename+'.'+extension.lower())
     elif extension.lower() == 'csv':
         return pd.read_csv(filepath+filename+'.'+extension.lower(), index_col=False)
